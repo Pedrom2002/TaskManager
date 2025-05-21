@@ -1,56 +1,48 @@
- 																	Task Manager
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                 Task Manager
+----------------------------------------------------------------------------------------------------------------------------------
 
-Um aplicativo Android para gerenciar tarefas, com autenticação de utilizadores e armazenamento local no SQLite. Desenvolvido para ajudar os utilizadores a organizar suas tarefas diárias de forma simples e eficiente.
+An Android application for task management with user authentication and local SQLite storage. Developed to help users organize their daily tasks in a simple and efficient way.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                         	Funcionalidades Principais
+----------------------------------------------------------------------------------------------------------------------------------
+                                  Key Features
 
-  Autenticação de Utilizadores:
-	
-	-Criação de contas com nome de utilizador, e-mail e senha.
+User Authentication:
 
-	-Autenticação segura com verificação de senha.
+    - Account creation with username, email, and password.
+    - Secure login with password verification.
+    - Option to change password and delete account.
 
-	-Opção para alterar senha e excluir conta.
+Task Management:
 
- Gestão de Tarefas:
+    - Add, edit, and delete tasks.
+    - View task details, including title, description, and assignee.
+    - List of tasks associated with each user.
 
-     	-Adicionar, editar e excluir tarefas.
+Intuitive Interface:
 
-     	-Visualizar detalhes das tarefas, incluindo nome, descrição e responsável.
+    - Interactive dialogs for creating and editing tasks.
+    - Options menu for each task (view details, edit, delete).
+    - Simple navigation between screens.
 
-     	-Listagem de tarefas associadas a cada utilizador.
+Local Storage:
 
- Interface Intuitiva:
+    - Uses SQLite to store user and task data.
+    - Efficient queries to list tasks and users.
 
-	-Diálogos interativos para criação e edição de tarefas.
+----------------------------------------------------------------------------------------------------------------------------------
+                                 Technologies Used
 
-	-Menu de opções para cada tarefa (ver detalhes, editar, excluir).
+Language:  
+    Java
 
-	-Navegação simples entre telas.
+Database:  
+    SQLite with Room Persistence Library
 
-  Armazenamento Local:
+Interface:  
+    XML for layouts
 
-	-Uso do SQLite para armazenar dados de utilizadores e tarefas.
+Tools:
 
-	-Consultas eficientes para listar tarefas e utilizadores.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-              	Tecnologias Utilizadas
-
-Linguagem: 
-	Java
-
-Banco de Dados: 
-	SQLite com Room Persistence Library
-
-Interface: 
-	XML para layouts
-
-Ferramentas:
-
-	Android Studio
-
-	Android SDK
-
-	SQLite Database Browser (para depuração do banco de dados)
+    Android Studio  
+    Android SDK  
+    SQLite Database Browser (for database debugging)
